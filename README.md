@@ -167,8 +167,6 @@ The ER diagram documents the main entities, their attributes, primary/foreign ke
 
 ![Blood Bank Management System ER Diagram](Blood%20Bank%20Management%20System.png)
 
-If the image does not render after uploading, check that the image filename in the Markdown matches the exact filename committed to the repository.
-
 ## Limitations and Future Improvements
 
 - Add validation to prevent issuing more units than are available.
@@ -179,10 +177,6 @@ If the image does not render after uploading, check that the image filename in t
 - Strengthen data validation with appropriate `NOT NULL`, `CHECK`, and uniqueness constraints.
 - Add application-level authentication, role-based access, and a user interface if expanding beyond a database-only project.
 - Use synthetic or anonymized data; protect real donor and patient information.
-
-## Disclaimer
-
-This is an educational SQL database project, not a certified medical or blood-bank management application. The sample records are for demonstration. Blood compatibility, donor eligibility, expiry handling, and transfusion decisions must follow qualified medical and regulatory guidance.
 
 ## Author
 
